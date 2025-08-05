@@ -9,7 +9,10 @@ import androidx.navigation.compose.rememberNavController
 import com.angela.swaggy.ui.screens.about.AboutScreen
 import com.angela.swaggy.ui.screens.category.CategoryScreen
 import com.angela.swaggy.ui.screens.contact.ContactScreen
+import com.angela.swaggy.ui.screens.dashboard.DashboardScreen
+import com.angela.swaggy.ui.screens.dashboard.DashboardScreen2
 import com.angela.swaggy.ui.screens.detail.DetailScreen
+import com.angela.swaggy.ui.screens.form.FormScreen
 import com.angela.swaggy.ui.screens.home.HomeScreen
 import com.angela.swaggy.ui.screens.intent.IntentScreen
 import com.angela.swaggy.ui.screens.item.ItemScreen
@@ -60,6 +63,16 @@ fun AppNavHost(
 
         composable(ROUT_INTENT) {
             IntentScreen(navController)
+        }
+        composable(ROUT_DASHBOARD) {
+            DashboardScreen(navController)
+        }
+        composable(ROUT_DASHBOARD2) {
+            DashboardScreen2(navController)
+        }
+
+        composable(ROUT_FORM) {
+            FormScreen(navController)
         }
 
     }

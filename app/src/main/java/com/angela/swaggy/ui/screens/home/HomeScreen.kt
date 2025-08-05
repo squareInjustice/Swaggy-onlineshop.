@@ -47,7 +47,7 @@ fun HomeScreen(navController: NavController){
    ){
 
       Image(
-          painter = painterResource(R.drawable.shop),
+          painter = painterResource(R.drawable.shop1),
           contentDescription = "online_shop",
           modifier = Modifier.size(300.dp).clip(shape = CircleShape),
           contentScale = ContentScale.Crop

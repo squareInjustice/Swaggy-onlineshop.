@@ -149,14 +149,14 @@ fun ItemScreen(navController: NavController){
            ) {
                Image(painter = painterResource(R.drawable.dress),
                    contentDescription = "dress",
-                   modifier = Modifier.size(width = 200.dp, height = 250.dp).clip(shape = RoundedCornerShape(10.dp)),
+                   modifier = Modifier.size(width = 150.dp, height = 250.dp).clip(shape = RoundedCornerShape(10.dp)),
                    contentScale = ContentScale.Crop
 
                )
                Spacer(modifier = Modifier.width(10.dp))
 
                Column() {
-                   Text(text = "Stylish Cotton Shirt", fontSize = 18.sp, fontWeight = FontWeight.Bold)
+                   Text(text = "Yellow Satin Dress", fontSize = 18.sp, fontWeight = FontWeight.Bold)
                    Spacer(modifier = Modifier.height(10.dp))
 
                    Text(text = "Brand : Alexander Fashion", fontSize = 15.sp)
@@ -206,7 +206,7 @@ fun ItemScreen(navController: NavController){
            ) {
                Image(painter = painterResource(R.drawable.shirt),
                    contentDescription = "shirt",
-                   modifier = Modifier.size(width = 200.dp, height = 250.dp).clip(shape = RoundedCornerShape(10.dp)),
+                   modifier = Modifier.size(width = 150.dp, height = 250.dp).clip(shape = RoundedCornerShape(10.dp)),
                    contentScale = ContentScale.Crop
 
                )

@@ -55,6 +55,7 @@ fun SplashScreen(navController: NavController){
         LottieAnimation(composition, progress,
             modifier = Modifier.size(300.dp)
         )
+        //End of animation
 
 
         Spacer(modifier = Modifier.height(10.dp))
