@@ -12,3 +12,7 @@ const val ROUT_INTENT= "intent"
 const val ROUT_DASHBOARD= "dashboard"
 const val ROUT_DASHBOARD2= "dashboard2"
 const val ROUT_FORM= "form"
+
+//Auth
+const val ROUT_REGISTER= "register"
+const val ROUT_LOGIN= "login"
